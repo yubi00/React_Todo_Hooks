@@ -1,0 +1,27 @@
+.form {
+    width: 60%;
+    background-color: grey;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    padding: 30px;
+    display: flex;
+}
+
+.form-input {
+    padding: 20px;
+    width:85%;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: large;
+    font-weight: 300;
+}
+
+.send-btn {
+    padding: 23px;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

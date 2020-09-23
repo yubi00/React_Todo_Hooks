@@ -1,0 +1,61 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    background-color: aquamarine;
+    color: darkslategrey;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+
+}
+
+.list-title {
+    padding: 20px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+}
+
+.remove-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+
+
+.remove-btn {
+   padding: 10px;
+   text-align: center;
+   background-color: green;
+   outline: none;
+   border: none;
+   width: 50px;
+   color: white;
+   cursor: pointer;
+
+}
+
+.no-todo {
+    padding: 20px;
+}
+
+.edit-input {
+    padding: 20px;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: darkslategray;
+}
